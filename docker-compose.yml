@@ -1,0 +1,7 @@
+version: "2"
+services:
+    sha1dir-builder:
+        image: golang:1.7-onbuild
+        volumes:
+            - .:/go/src/app
+        command: "go build -o bin/sha1dir.linux main.go"
