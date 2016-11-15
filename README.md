@@ -7,11 +7,14 @@ sha1dir is a tool for signing directory content. Alternative of http://bmm-signa
 
 ## Usage
 ```
-sha1dir .
+# sha1dir .
+. - 655823891f4465ddec072358b6a45a152f96a5b4
 ```
 
 ```
-sha1dir dir1 dir2
+# sha1dir test_dir1 test_dir2
+test_dir1 - 24f4d75b372afc955777d67612dc2d334c3d082f
+test_dir2 - 5b6c32dcab5510d99546ae3647d1c7c6b5b0c675
 ```
 
 ## Licensing
