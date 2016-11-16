@@ -14,4 +14,4 @@ deploy:
   file: bin/sha1dir.linux
   skip_cleanup: true
   on:
-    repo: ujenmr/sha1dir
+    tags: true
