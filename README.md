@@ -1,4 +1,6 @@
-# sha1dir
+# sha1dir 
+[![Build Status](https://travis-ci.org/ujenmr/sha1dir.svg?branch=master)](https://travis-ci.org/ujenmr/sha1dir)
+
 sha1dir is a tool for signing directory content. Alternative of http://bmm-signatures.software.informer.com
 
 ## Installation
