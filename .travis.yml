@@ -7,10 +7,12 @@ services:
 before_install:
 - docker-compose pull
 script:
+- go test ./... 
 - docker-compose up
 deploy:
   provider: releases
   api_key: "$GITHUB_OAUTH_TOKEN"
   file: bin/sha1dir.linux
+  skip_cleanup: true
   on:
     repo: ujenmr/sha1dir
