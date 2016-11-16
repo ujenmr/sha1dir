@@ -2,7 +2,7 @@
 sha1dir is a tool for signing directory content. Alternative of http://bmm-signatures.software.informer.com
 
 ## Installation
-* Download sha1dir [linux](https://raw.githubusercontent.com/ujenmr/sha1dir/master/bin/sha1dir.linux) [macos](https://raw.githubusercontent.com/ujenmr/sha1dir/master/bin/sha1dir.macos) from github
+* Download sha1dir [linux](https://github.com/ujenmr/sha1dir/releases/download/1.0/sha1dir.linux) [macos](https://raw.githubusercontent.com/ujenmr/sha1dir/master/bin/sha1dir.macos) from github
 * Copy to /usr/local/bin/sha1dir
 
 ## Usage
