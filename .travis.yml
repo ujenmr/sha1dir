@@ -10,8 +10,7 @@ script:
 - docker-compose up
 deploy:
   provider: releases
-  api_key:
-    secure: "$api_key"
+  api_key: "$GITHUB_OAUTH_TOKEN"
   file: bin/sha1dir.linux
   on:
     repo: ujenmr/sha1dir
