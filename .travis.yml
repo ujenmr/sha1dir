@@ -1,6 +1,6 @@
 sudo: required
 language: go
-dist: precise
+dist: trusty
 
 go:
   - master
