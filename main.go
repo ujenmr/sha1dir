@@ -22,6 +22,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path/filepath"
+	"runtime"
 	"sort"
 	"strings"
 )
@@ -71,6 +72,10 @@ func fileData(path string) (string, error) {
 				return "", err
 			}
 			formatedPath := strings.ToLower(strings.Replace(path, "/", "", -1))
+			// Workaround for windows
+			if runtime.GOOS == "windows" {
+				formatedPath = strings.Replace(formatedPath, "\\", "", -1)
+			}
 			return string(fileData) + formatedPath, nil
 		}
 	}
